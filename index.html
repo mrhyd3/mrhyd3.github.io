@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h1>Travel to thailand Clock</h1>
+<h1>David will arrive in Thailand in</h1>
 <div id="clockdiv">
   <div>
     <span class="days"></span>
@@ -64,7 +64,8 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+//var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+var deadline = new Date(Date.parse(new Date("Mars 31, 2018 05:50:00")));
 initializeClock('clockdiv', deadline);
 </script>
 
